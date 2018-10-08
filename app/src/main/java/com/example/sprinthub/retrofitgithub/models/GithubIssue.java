@@ -6,9 +6,10 @@ public class GithubIssue {
 
     String id;
     String title;
-    String comments_url;
+    public String comments_url;
 
     @SerializedName("body")
+    public
     String comment;
 
     @Override
